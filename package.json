@@ -2,9 +2,10 @@
   "name": "interview_scratchpad",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:watch": "jest --watchAll",
+    "test": "jest"
   },
   "author": "Herlander Diogo Pinto (hdpinto@outlook.com)",
   "license": "MIT",
