@@ -14,3 +14,10 @@ I needed a quick to spin up typescript environment while doing interviews, feel 
 
 - Run all tests `npm test`
 - Watch all tests `npm run test:watch`
+
+## Downloads
+
+- [v1.0.0.zip](https://github.com/hdpinto/typescript-interview-scratchpad/archive/refs/tags/v1.0.0.zip)
+  - **wget**: `https://github.com/hdpinto/typescript-interview-scratchpad/archive/refs/tags/v1.0.0.zip`
+- [v1.0.0.tar.gz](https://github.com/hdpinto/typescript-interview-scratchpad/archive/refs/tags/v1.0.0.tar.gz)
+  - **wget**: `https://github.com/hdpinto/typescript-interview-scratchpad/archive/refs/tags/v1.0.0.tar.gz`
