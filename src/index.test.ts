@@ -1,6 +1,6 @@
 import "jest";
 
-import { doSomething } from ".";
+import { doSomething } from "index";
 
 describe("doSomething", () => {
   it("should output to the console", () => {

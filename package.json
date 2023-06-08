@@ -5,17 +5,22 @@
   "main": "src/index.ts",
   "scripts": {
     "test:watch": "jest --watchAll",
-    "test": "jest"
+    "test": "jest",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix"
   },
   "author": "Herlander Diogo Pinto (hdpinto@outlook.com)",
   "license": "MIT",
   "devDependencies": {
     "@babel/preset-env": "^7.22.4",
     "@babel/preset-typescript": "^7.21.5",
+    "@types/core-js": "^2.5.5",
     "@types/jest": "^29.5.2",
     "@typescript-eslint/eslint-plugin": "^5.59.9",
     "@typescript-eslint/parser": "^5.59.9",
     "babel": "^6.23.0",
+    "core-js": "^3.30.2",
     "eslint": "^8.42.0",
     "jest": "^29.5.0",
     "typescript": "^5.1.3"
