@@ -9,14 +9,12 @@
     "jsx": "react",
     "allowJs": true,
     "sourceMap": true,
-    "types": ["jest", "core-js", "node"],
+    "types": ["vitest/globals", "core-js", "node"],
     "lib": ["esnext", "dom"]
   },
   "exclude": [
     "node_modules",
-    "dist",
-    "src/**/*.test.ts",
-    "src/**/*.test.tsx"
+    "dist"
   ],
   "include": [
     "src/**/*.ts",
