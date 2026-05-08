@@ -4,7 +4,7 @@ I needed a quick to spin up typescript environment while doing interviews, feel 
 
 ## Features
 
-- Jest
+- Vitest
 - Typescript
 - Babel
 - ESlint with sensible defaults
@@ -12,8 +12,8 @@ I needed a quick to spin up typescript environment while doing interviews, feel 
 
 ## Commands
 
-- Run all tests `npm test`
-- Watch all tests `npm run test:watch`
+- Run all tests `pnpm test`
+- Watch all tests `pnpm run test:watch`
 
 ## Downloads
 
